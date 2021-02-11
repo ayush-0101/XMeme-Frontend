@@ -1,0 +1,83 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.top-component-fixed {
+    background-color: lightgray;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.form-field {
+    display: block;
+    height: 25px;
+    width: 25%;
+    margin: 1rem auto;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.form-submit {
+    width: 10%;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #e3dede;
+    margin-bottom: 10px;
+}
+
+.form-submit:hover {
+    cursor: pointer;
+    background-color: #989797;
+}
+
+.form-field:focus {
+    box-shadow: 0 0 4px 0 black;
+    outline: none;
+}
+
+.top-component-fixed h1 {
+    padding: 10px;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.post-meme-header {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+.memes-display {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.memes-display hr {
+    width: 50%;
+}
+
+.meme-container {
+    border: 1px solid black;
+    width: 350px;
+    margin: 20px auto;
+}
+
+.meme-image {
+    margin: 20px auto;
+}
+
+.meme-image img {
+    max-height: 600px;
+    max-width: 300px;
+}
+
+.meme-footer p {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.underline {
+    text-decoration: underline;
+}

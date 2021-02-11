@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>XMeme</title>
+    <meta charset="utf-8">
+    <meta name="Meme-stream app" content="A simple meme streaming application">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="top-component-fixed">
+        <h1>XMeme - Meme Streamer</h1>
+        <p class="post-meme-header">Post a meme</p>
+        <form class="post-meme">
+            <input class="form-field form-field-name" type="text" placeholder="Your name" maxlength="250" required>
+            <input class="form-field form-field-url" type="text" placeholder="URL of the image" required>
+            <textarea class="form-field form-field-caption" placeholder="Caption for the image" required></textarea>
+            <input class="form-submit" type="submit">
+        </form>
+    </div>
+
+    <div class="memes-display">
+        <h2>Memes</h2>
+        <hr>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
